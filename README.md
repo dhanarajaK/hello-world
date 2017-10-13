@@ -1,4 +1,4 @@
-[![Datmo Project](https://datmo.io/shabazp/iris-classification/badge.svg)](https://datmo.io/shabazp/iris-classification)
+[![Datmo Model](https://datmo.com/datmo/hello-world/badge.svg)](https://datmo.com/datmo/hello-world)
 
 # iris-classification
 
@@ -23,7 +23,7 @@ Check out the Snapshots tab above for information on snapshots that were taken w
 
 Clone this model on your local machine with the Datmo CLI
 
-     $ datmo clone https://datmo.io/shabazp/iris-classification
+     $ datmo clone hello-world
 
 Now you can run the set of commands below to better understand the advantages of converting a repository to a Datmo Project. First you can check out all of the snapshots that have already been created by the user.
 
