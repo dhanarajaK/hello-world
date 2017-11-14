@@ -1,10 +1,10 @@
 [![Datmo Model](https://datmo.com/datmo/hello-world/badge.svg)](https://datmo.com/datmo/hello-world)
 
-# iris-classification
+# Hello World
 
-This is an example of a Datmo Project which uses iris dataset to classify between different flower types. This project tries nearest neighbor and naive bayes algorithms.
+This is an example of a Datmo Model which uses iris dataset to classify between different flower types. This project tries nearest neighbor and naive bayes algorithms. 
 
-The Iris dataset was used in R.A. Fisher's classic 1936 paper and can also be found on the [UCI Machine Learning Repository][1].
+The Iris dataset was used in R.A. Fisher's classic 1936 paper and can also be found on the [UCI Machine Learning Repository][1] and is a classic hello world dataset and problem for machine learning. 
 
 It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
 
@@ -19,7 +19,7 @@ The columns in this dataset are:
 
   [1]: http://archive.ics.uci.edu/ml/
 
-Check out the Snapshots tab above for information on snapshots that were taken with various parameters. Search and filter them to find the best ones.
+Check out the Snapshots tab on Datmo above for information on snapshots that were taken with various parameters. Search and filter them to find the best ones.
 
 Clone this model on your local machine with the Datmo CLI
 
@@ -35,13 +35,6 @@ Once you have viewed all of the existing snapshots, you can create your own by s
 
 For reference, here are few more quick details about what you can find in the repository.
 
-Dockerfile: this is meant to keep track of your environment. For example, this Dockerfile ensures that our environment has all of the requirements needed to run our model. You can manage, edit, and create new enviroments with the datmo env command. Each session you create with datmo will have a default environment associated with it.
-
-_datmo: visible datmo folder where the input information (data, snapshots, misc files) will go.
-
-_datmo/data: we store any data that you might use for the model. In this case, we are pulling data from a remote server and will populate this directory automatically while training. For other models, you will want to use the datmo dataset command to create, manage, or pull datasets from the remote server
-
-_datmo/snapshots: contains weights, statistics and files(visualizations) that are pulled in to be inputs for processing
-The commands and quick reference above is by no means meant to be comprehensive. Please refer to the CLI documentation for more details on the various Datmo commands to use and file structures present in Datmo.
+Dockerfile: this is meant to keep track of your environment. For example, this Dockerfile ensures that our environment has all of the requirements needed to run our model. You can manage, edit, and create new enviroments with the [datmo env command](https://docs.datmo.com/commands/environment.html).  You can learn more about environments with Docker on our [Datmo docs page](https://docs.datmo.com/guides/creating-your-environment.html)
 
 Happy Building :)
